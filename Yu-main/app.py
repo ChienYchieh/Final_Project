@@ -63,8 +63,8 @@ def handle_message(event):
         message = TextSendMessage(text = "0%")
     if('水瓶座' in get1):
         message1 = ImageSendMessage(
-            original_content_url = 'https://i0.wp.com/guidelinehk.com/wp-content/uploads/2021/02/age-of-aquarius-community.jpg?resize=800%2C445&ssl=1',
-            preview_image_url = 'https://i0.wp.com/guidelinehk.com/wp-content/uploads/2021/02/age-of-aquarius-community.jpg?resize=800%2C445&ssl=1'
+            original_content_url = 'https://i0.wp.com/guidelinehk.com/wp-content/uploads/2021/02/age-of-aquarius-community.jpg?resize=800%2C445&ssl=1.jpg',
+            preview_image_url = 'https://i0.wp.com/guidelinehk.com/wp-content/uploads/2021/02/age-of-aquarius-community.jpg?resize=800%2C445&ssl=1.jpg'
         )
     if('水瓶座' in get):
         message = TextSendMessage(text = "水瓶是一個持著瓶子在酒吧的美少年蓋尼米德，他是特洛伊的王子。\n有一天，他替父親看羊時，我在天空經過，一看到他的臉就愛上他了，因為太愛他了，我就變身成一隻老鷹擄走他到奧林匹斯山跟我一起住。")
