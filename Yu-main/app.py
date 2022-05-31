@@ -62,7 +62,7 @@ def handle_message(event):
     if get == "0":
         message = TextSendMessage(text = "0%")
     if('水瓶座' in get1):
-        message = ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url = 'https://i0.wp.com/guidelinehk.com/wp-content/uploads/2021/02/age-of-aquarius-community.jpg?resize=800%2C445&ssl=1',
             preview_image_url = 'https://i0.wp.com/guidelinehk.com/wp-content/uploads/2021/02/age-of-aquarius-community.jpg?resize=800%2C445&ssl=1'
         )
