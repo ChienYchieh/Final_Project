@@ -23,7 +23,6 @@ for i in imgs:                         # 修改 for 迴圈內容
     name = name + 1                      # 編號增加 1
 
 def download(url):                     # 編輯下載函式
-    print(url)                           # 印出網址
     jpg = requests.get(url[0])           # 使用 requests.get 取得圖片資訊
     f = open(f'download/test_{url[1]}.jpg', 'wb')    # 將圖片開啟為二進位格式 ( 請自行修改存取路徑 )
     f.write(jpg.content)                 # 存取圖片
