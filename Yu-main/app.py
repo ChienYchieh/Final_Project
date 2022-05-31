@@ -21,18 +21,6 @@ img_urls = []                          # 根據爬取的資料，建立一個圖
 for i in imgs:                         # 修改 for 迴圈內容
     img_urls.append([i['src'], name])    # 將圖片網址與編號加入串列中
     name = name + 1                      # 編號增加 1
-
-def download(url):                     # 編輯下載函式
-    jpg = requests.get(url[0])           # 使用 requests.get 取得圖片資訊
-    f = open(f'download/test_{url[1]}.jpg', 'wb')    # 將圖片開啟為二進位格式 ( 請自行修改存取路徑 )
-    f.write(jpg.content)                 # 存取圖片
-    f.close()
-
-executor = ThreadPoolExecutor()          # 建立非同步的多執行緒的啟動器
-with ThreadPoolExecutor() as executor:
-    executor.map(download, img_urls)# 同時下載圖片
-app = Flask(__name__)
-
 # Channel Access Token
 line_bot_api = LineBotApi('Oj5u1W0iXCh02EY/05XHu0SPSo9XbUH6aIak7CSPsZCK3tqPMJH2OLda5ucMIllli7vVe0L5bnItmLf34WrbH4Hkf1Db2aXuu2FDanzp3VGMtw1BO2g+5hqLE2sffbqtTqyrVdTNyLon9rWrEMP4ugdB04t89/1O/w1cDnyilFU=')
 #or line_bot_api = 'Channel_token'
@@ -107,12 +95,13 @@ def story(event):
         )
     if('抽' in get):
         ran_num=random.randint(1,20)
-        result=img_urls[ran_num][0]
+        result1=img_urls[ran_num][0]
         message = ImageSendMessage(
-            original_content_url = 'result.jpg',
-            preview_image_url = 'result.jpg'
+            original_content_url = 'result1.jpg',
+            preview_image_url = 'result1.jpg'
         )
     line_bot_api.reply_message(event.reply_token, message)
-
+    
+    
 if __name__ == "__main__":
     app.run()
