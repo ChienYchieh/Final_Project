@@ -61,12 +61,6 @@ def handle_message(event):
     if get == "0":
         message = TextSendMessage(text = "0%")
     if('水瓶座' in get):
-        message=ImageSendMessage(
-            original_content_url='https://www.google.com/search?q=%E6%B0%B4%E7%93%B6%E5%BA%A7&tbm=isch&ved=2ahUKEwju8b_86oj4AhVG7ZQKHY47DtgQ2-cCegQIABAA&oq=%E6%B0%B4%E7%93%B6%E5%BA%A7&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQHlDTEVjSEmCmFGgAcAB4AIABZogBjgKSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=uZCVYq6xFMba0wSO97jADQ&bih=833&biw=1500&rlz=1C1VDKB_zh-TWTW968TW968#imgrc=znyMwu2ypPQK-M',
-            preview_image_url='https://www.google.com/search?q=%E6%B0%B4%E7%93%B6%E5%BA%A7&tbm=isch&ved=2ahUKEwju8b_86oj4AhVG7ZQKHY47DtgQ2-cCegQIABAA&oq=%E6%B0%B4%E7%93%B6%E5%BA%A7&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQHlDTEVjSEmCmFGgAcAB4AIABZogBjgKSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=uZCVYq6xFMba0wSO97jADQ&bih=833&biw=1500&rlz=1C1VDKB_zh-TWTW968TW968#imgrc=znyMwu2ypPQK-M',
-            original_content_url = 'https://www.google.com/search?q=%E6%B0%B4%E7%93%B6%E5%BA%A7&tbm=isch&ved=2ahUKEwju8b_86oj4AhVG7ZQKHY47DtgQ2-cCegQIABAA&oq=%E6%B0%B4%E7%93%B6%E5%BA%A7&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQHlDTEVjSEmCmFGgAcAB4AIABZogBjgKSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=uZCVYq6xFMba0wSO97jADQ&bih=833&biw=1500&rlz=1C1VDKB_zh-TWTW968TW968#imgrc=znyMwu2ypPQK-M',
-            preview_image_url = 'https://www.google.com/search?q=%E6%B0%B4%E7%93%B6%E5%BA%A7&tbm=isch&ved=2ahUKEwju8b_86oj4AhVG7ZQKHY47DtgQ2-cCegQIABAA&oq=%E6%B0%B4%E7%93%B6%E5%BA%A7&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQHlDTEVjSEmCmFGgAcAB4AIABZogBjgKSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=uZCVYq6xFMba0wSO97jADQ&bih=833&biw=1500&rlz=1C1VDKB_zh-TWTW968TW968#imgrc=znyMwu2ypPQK-M'
-        )
         message = TextSendMessage(text = "水瓶的形像是一個持著瓶子在斟酒的美少年蓋尼米德，據說他是特洛伊的王子。\n有一天，他替父親看羊時，我在天空經過，一見蓋尼米德即煞到他，然後我變身成一隻老鷹擄走他到奧林匹斯山。")
     if('黑人問號' in get):
         message = ImageSendMessage(
