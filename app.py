@@ -24,6 +24,7 @@ import random
 #     img_urls.append([i['src'], name])    # 將圖片網址與編號加入串列中
 #     name = name + 1                      # 編號增加 1
 # Channel Access Token
+app = Flask(__name__)
 line_bot_api = LineBotApi(
     'Oj5u1W0iXCh02EY/05XHu0SPSo9XbUH6aIak7CSPsZCK3tqPMJH2OLda5ucMIllli7vVe0L5bnItmLf34WrbH4Hkf1Db2aXuu2FDanzp3VGMtw1BO2g+5hqLE2sffbqtTqyrVdTNyLon9rWrEMP4ugdB04t89/1O/w1cDnyilFU=')
 # or line_bot_api = 'Channel_token'
