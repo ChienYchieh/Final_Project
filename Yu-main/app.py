@@ -102,3 +102,4 @@ def girl_finding():
 if __name__ == "__main__":
     line_bot_api.reply_message("打1可以詢問各個星座的故事")
     app.run()
+    
