@@ -57,11 +57,6 @@ def story(event):
             message = TextSendMessage(text = "40")
         else:
             message = TextSendMessage(text = "50")
-    if get == "這個專案會拿幾分":
-        result = random.randint(90,100)
-        message = TextSendMessage(text = str(result) + "%")
-    if get == "0":
-        message = TextSendMessage(text = "0%")
     if('水瓶座' in get):
         message = TextSendMessage(text = "水瓶是一個持著瓶子在酒吧的美少年蓋尼米德，他是特洛伊的王子。\n有一天，他替父親看羊時，我在天空經過，一看到他的臉就愛上他了，因為太愛他了，我就變身成一隻老鷹擄走他到奧林匹斯山跟我一起住。")
     if('雙魚座' in get):
@@ -91,6 +86,5 @@ def story(event):
     line_bot_api.reply_message(event.reply_token, message)
 
 if __name__ == "__main__":
-    line_bot_api.reply_message("打1可以詢問各個星座的故事")
-
+    print("sfsfaf")
     app.run()
