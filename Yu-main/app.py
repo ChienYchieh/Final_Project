@@ -77,7 +77,7 @@ def handle_message(event):
     if get == "hello 你好嗎":    
         message = TextSendMessage(text = "衷心感謝")
         
-    line_bot_api.reply_message(event.reply_token, message)
+    line_bot_api.reply_message(event.reply_token, message,message1)
 
 if __name__ == "__main__":
     app.run()
