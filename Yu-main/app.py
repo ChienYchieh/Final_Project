@@ -88,18 +88,8 @@ def story(event):
         )
    
     line_bot_api.reply_message(event.reply_token, message)
-def fortune_predict(event):
-    get1=event.message.test
-
-def girl_finding():
-    url="https://www.google.com/search?q=%E6%AD%A3%E5%A6%B9&rlz=1C1VDKB_zh-TWTW968TW968&tbm=isch&sxsrf=ALiCzsYcYQS4DvpmRawFchOTldfsmEl4ZQ:1653973650732&source=lnms&sa=X&ved=2ahUKEwidua3_-4j4AhWJAaYKHSUTAAsQ_AUoAXoECAEQAw&biw=1500&bih=889&dpr=2"
-    re=requests.get(url1)
-    if re.status_code == 200:
-        print(f"successfully connected to: {url}")
-    else:
-        print(f"error while crawling: {url}")
 
 if __name__ == "__main__":
     line_bot_api.reply_message("打1可以詢問各個星座的故事")
+
     app.run()
-    
