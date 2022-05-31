@@ -86,5 +86,4 @@ def story(event):
     line_bot_api.reply_message(event.reply_token, message)
 
 if __name__ == "__main__":
-    print("sfsfaf")
     app.run()
