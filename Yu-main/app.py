@@ -12,7 +12,9 @@ import random
 import requests
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
-
+res = requests.get('https://example.com', headers={
+        'User-Agent': 'Firefox browser\'s user-agent',
+})
 web = requests.get('https://www.google.com/search?q=%E6%AD%A3%E5%A6%B9&rlz=1C1VDKB_zh-TWTW968TW968&sxsrf=ALiCzsbpJ32YYwZzhP_-xhIp1A0rPCTIyg:1653983833798&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjXtYL3oYn4AhWXmFYBHRbOAJAQ_AUoAXoECAIQAw&biw=1500&bih=889&dpr=2.html', cookies={'over18':'1'})
 soup = BeautifulSoup(web.text, "html.parser")
 imgs = soup.find_all('img')
@@ -104,4 +106,4 @@ def story(event):
     
     
 if __name__ == "__main__":
-    app.run()
+    app.run(
