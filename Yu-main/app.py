@@ -9,9 +9,6 @@ from linebot.exceptions import (
 from linebot.models import *
 
 import random
-import requests
-from bs4 import BeautifulSoup
-
 
 app = Flask(__name__)
 
