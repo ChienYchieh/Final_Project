@@ -118,6 +118,7 @@ def story(event):
             original_content_url='https://i.imgur.com/zTOnfAi.jpg',
             preview_image_url='https://i.imgur.com/zTOnfAi.jpg'
         )
+        print("test")
     line_bot_api.reply_message(event.reply_token, message)
 
 
