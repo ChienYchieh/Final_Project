@@ -164,8 +164,8 @@ def story(event):
         )
     if('抽' in get):
         message = ImageSendMessage(
-            original_content_url=result2,
-            preview_image_url=result2
+            original_content_url='result2',
+            preview_image_url='result2'
         )
     line_bot_api.reply_message(event.reply_token, message)
 
