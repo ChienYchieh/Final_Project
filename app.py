@@ -106,9 +106,9 @@ def callback():
 
 reply_arr=[]
 @handler.add(MessageEvent, message=TextMessage)
-# @handler.add(MessageEvent, message1=TextMessage)
-# @handler.add(MessageEvent, message2=TextMessage)
-# @handler.add(MessageEvent, message3=TextMessage)
+@handler.add(MessageEvent, message1=TextMessage)
+@handler.add(MessageEvent, message2=TextMessage)
+@handler.add(MessageEvent, message3=TextMessage)
 def story(event):
     get = event.message.text
 #     get1 = event.message.text
