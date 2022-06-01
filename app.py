@@ -160,11 +160,7 @@ def story(event):
     if('射手座' in get):
         message = TextSendMessage(
             text="有一天海格拉斯和族人起衝突，被追殺的他就逃入肯農家中，憤怒的海格拉斯就瞄準半馬半人族頻頻放箭，卻不知老師肯農也混在其中，而射到他的腳。 因箭端沾了不死之身，所以無法從痛苦中解放。 巨人神普羅米修斯乃廢了其不死之身，讓他安詳而死，而成為天上的射手座。")
-    line_bot_api.reply_message(event.reply_token, message)
-
-
-def girl(event):
-    get = event.message.text
+####抽女生#######
     if('抽' in get):
         ran_num = random.randint(1, 60)
         result1 = Girl_Array[ran_num]
@@ -172,17 +168,12 @@ def girl(event):
             original_content_url=result1,
             preview_image_url=result1
         )
-    line_bot_api.reply_message(event.reply_token, message)
-
-
-def watch_the_stars(event):
-    get = event.message.text
+ ####全台景點介紹####
     if('觀星' in get):
         message = TextSendMessage(
             text="全台觀星景點｜北部\n★陽明山：擎天崗\n★基隆：大武崙砲台\n★桃園：拉拉山\n★雪霸國家公園\n合歡山暗空公園\n★宜蘭：太平山\n全台觀星景點｜中部\n★玉山國家公園\n★南投：清境\n★阿里山\n★恆春：貓鼻頭\n全台觀星景點｜東部\n★花蓮：大農大富森林\n★台東:嘉明湖\n★您可以查詢以上地點會有相關路線以及其介紹★")
+            
     line_bot_api.reply_message(event.reply_token, message)
-
-
 # def map(event):
 #     get3 = event.message.text
 #     get1 = event.message.text
