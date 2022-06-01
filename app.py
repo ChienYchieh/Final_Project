@@ -9,11 +9,10 @@ from linebot.exceptions import (
 from linebot.models import *
 
 import random
-
-with open('The_girls_url.py') as f:
-    ran_num = random.randint(1, 62)
-    result1 = Girl_Array[ran_num][0]
-    result2=result1+".jpg"
+import The_girls_url.py 
+ran_num = random.randint(1, 62)
+result1 = Girl_Array[ran_num][0]
+result2=result1+".jpg"
 # Channel Access Token
 app = Flask(__name__)
 line_bot_api = LineBotApi(
