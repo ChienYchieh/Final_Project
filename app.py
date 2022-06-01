@@ -106,14 +106,14 @@ def callback():
 
 
 @handler.add(MessageEvent, message=TextMessage)
-@handler.add(MessageEvent, message1=TextMessage)
-@handler.add(MessageEvent, message2=TextMessage)
-@handler.add(MessageEvent, message3=TextMessage)
+# @handler.add(MessageEvent, message1=TextMessage)
+# @handler.add(MessageEvent, message2=TextMessage)
+# @handler.add(MessageEvent, message3=TextMessage)
 def story(event):
     get = event.message.text
-    get1 = event.message.text
-    get2 = event.message.text
-    get3 = event.message.text
+#     get1 = event.message.text
+#     get2 = event.message.text
+#     get3 = event.message.text
 # event.gessage.text接收使用者文字訊息
 
     if get == "你幾歲":
