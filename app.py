@@ -73,8 +73,7 @@ Girl_Array=['/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x5
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg']
 ran_num = random.randint(1, 60)
-result1 = Girl_Array[ran_num][0]
-result2=result1+".jpg"
+result1 = Girl_Array[ran_num]
 # Channel Access Token
 app = Flask(__name__)
 line_bot_api = LineBotApi(
@@ -164,8 +163,8 @@ def story(event):
         )
     if('抽' in get):
         message = ImageSendMessage(
-            original_content_url='result2',
-            preview_image_url='result2'
+            original_content_url=result1,
+            preview_image_url=result1
         )
     line_bot_api.reply_message(event.reply_token, message)
 
