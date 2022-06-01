@@ -287,7 +287,7 @@ def story(event):
     
         message = LocationSendMessage(
             title='my location',
-            address='合歡山暗空公園',
+            address='合歡山',
             latitude=24.119619044460528,
             longitude=121.23788298056792)
         reply_arr.append(message)
