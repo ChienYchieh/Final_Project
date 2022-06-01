@@ -184,7 +184,7 @@ def story(event):
             text="有一天海格拉斯和族人起衝突，被追殺的他就逃入肯農家中，憤怒的海格拉斯就瞄準半馬半人族頻頻放箭，卻不知老師肯農也混在其中，而射到他的腳。 因箭端沾了不死之身，所以無法從痛苦中解放。 巨人神普羅米修斯乃廢了其不死之身，讓他安詳而死，而成為天上的射手座。")
         reply_arr.append(message)
 ####抽女生#######
-    elif('抽' in get):
+    elif('抽' == get):
         reply_arr.clear()
         ran_num = random.randint(1, 60)
         result1 = Girl_Array[ran_num]
@@ -199,7 +199,7 @@ def story(event):
         message = TextSendMessage(
             text="全台觀星景點｜北部\n★陽明山：擎天崗\n★基隆：大武崙砲台\n★桃園：拉拉山\n★雪霸國家公園\n合歡山暗空公園\n★宜蘭：太平山\n全台觀星景點｜中部\n★玉山國家公園\n★南投：清境\n★阿里山\n★恆春：貓鼻頭\n全台觀星景點｜東部\n★花蓮：大農大富森林\n★台東:嘉明湖\n★您可以查詢以上地點會有相關路線以及其介紹★")
         reply_arr.append(message)    
-    elif('陽明山' in get):
+    elif('陽明山' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://www.travel.taipei/content/images/attractions/65473/1024x768_attractions-image-cxh_ib5zs0wq1c0iv6cooq.jpg',
@@ -218,7 +218,7 @@ def story(event):
             latitude=25.194876190356684,
             longitude=121.56119365161739)
         reply_arr.append(message)
-    elif('大武崙砲台' in get):
+    elif('大武崙砲台'== get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://mapio.net/images-p/21705320.jpg',
@@ -237,7 +237,7 @@ def story(event):
             latitude=25.15883956907141,
             longitude=121.7084027926998)
         reply_arr.append(message)
-    elif('拉拉山' in get):
+    elif('拉拉山' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://pic.pimg.tw/mttt543/1469122650-382915528_wn.jpg',
@@ -255,7 +255,7 @@ def story(event):
             latitude=24.730588931200863,
             longitude=121.43416666464796)
         reply_arr.append(message)
-    elif('雪霸國家公園' in get):
+    elif('雪霸國家公園' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://assetsv4.tripmoment.com/system/redactor_assets/pictures/22300/content_330bcdcf-530a-4269-acaf-95e14f8d0c2e.jpg',
@@ -273,7 +273,7 @@ def story(event):
             latitude=24.41025288704792,
             longitude=121.232322528505)
         reply_arr.append(message)
-    elif('合歡山暗空公園' in get):
+    elif('合歡山暗空公園' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202009/5F6786C1466181600620225.jpeg',
@@ -291,7 +291,7 @@ def story(event):
             latitude=24.119619044460528,
             longitude=121.23788298056792)
         reply_arr.append(message)
-    elif('太平山' in get):
+    elif('太平山' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://wpimg.tedlin.tw/2017/10/TED_2387.jpg',
@@ -309,7 +309,7 @@ def story(event):
             latitude=24.498019857300292,
             longitude=121.53519850951673)
         reply_arr.append(message)
-    elif('玉山國家公園' in get):
+    elif('玉山國家公園' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://img.ltn.com.tw/Upload/news/600/2019/04/24/2768745_3.jpg',
@@ -327,7 +327,7 @@ def story(event):
             latitude=23.47007226805115,
             longitude=120.95773699769175)
         reply_arr.append(message)
-    elif('清境' in get):
+    elif('清境' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://static.accupass.com/eventintro/2008020759261199236260.jpg',
@@ -345,7 +345,7 @@ def story(event):
             latitude=24.055406320121055,
             longitude=121.16240492909596)
         reply_arr.append(message)
-    elif('阿里山' in get):
+    elif('阿里山' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://www.mook.com.tw/images/upload/article/18293/A18293_1530766231_2.jpg',
@@ -363,7 +363,7 @@ def story(event):
             latitude=23.509559804545784,
             longitude=120.82286189830182)
         reply_arr.append(message)
-    elif('貓鼻頭' in get):
+    elif('貓鼻頭' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='http://jdanews.com/blog/wp-content/uploads/2018/12/48395686_1325658220909387_6999618303777832960_n.jpg',
@@ -381,7 +381,7 @@ def story(event):
             latitude=21.92218492616225,
             longitude=120.73794138722731)
         reply_arr.append(message)
-    elif('大農大富森林' in get):
+    elif('大農大富森林' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://www.welcometw.com/wp-content/uploads/2020/12/1-1-2-681x851.jpg',
@@ -399,7 +399,7 @@ def story(event):
             latitude=23.614972749304535,
             longitude=121.41769591118695)
         reply_arr.append(message)
-    elif('嘉明湖' in get):
+    elif('嘉明湖' == get):
         reply_arr.clear()
         message = ImageSendMessage(
             original_content_url='https://cdntwrunning.biji.co/800_e3551bad7f2ebc2dbd87290c15482e5d.jpg',
