@@ -356,9 +356,7 @@ def watch_star(event):
 #     line_bot_api.reply_message(event.reply_token, message1)
 #     line_bot_api.reply_message(event.reply_token, message2)
 #     line_bot_api.reply_message(event.reply_token, message3)
-
-
-if __name__ == "__main__":
-    app.run()
-
-    
+callback()
+story()
+girl()
+watch_star()
