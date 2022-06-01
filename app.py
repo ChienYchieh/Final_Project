@@ -115,8 +115,8 @@ def story(event):
         result1 = img_urls[ran_num][0]
         result2=result1+".jpg"
         message = ImageSendMessage(
-            original_content_url=result2,
-            preview_image_url=result2
+            original_content_url='https://i.imgur.com/zTOnfAi.jpg',
+            preview_image_url='https://i.imgur.com/zTOnfAi.jpg'
         )
     line_bot_api.reply_message(event.reply_token, message)
 
