@@ -10,68 +10,68 @@ from linebot.models import *
 
 import random
 Girl_Array = ['/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixPnAeQ3VIhM864e1BAACAMHqN5jR32E9GNFcsy7ETJwekOlLNn2wD1FlXA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfrFB9potztJVKd5yGviXZi7Wpf7lD1Ewz-dYqc_AVT_munTSrcwvCLgG6w&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlNOhyA5nOmDwAHzKwhz2UbI2OM44oftmlOVVgT7M7vQDQpF6E_I6Wf18-U0&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IOdCzecJhMT1sx0qzOn33cI61MSFarRwGbI15ab5D4Z_oD_U-YlCT8DV0RY&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHS6J5CfdonfZWDqi-2mO1axz_9wUrSeuf1UqYOVNFQGbj7JEEN7HyAsC0GQ&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD510ur7mPl_E4UlKVB8ZNbXRaKO2uRoN5tQheuTNPtM9hqZdNyLuyB6-jlA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqLtcRI01HyBOV-8Qzi1Exa_bJ6nSJDd28-orJhFtjAy4De3KDyAKSKSgSMM&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62aujzJG_Zw3P4Q6M90Ys_rtti1xLlQgGDo3bBz1WZf8MTmHu1cuK2b6Z_w&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfXB7vLIQ9gb59kwzXsX7z3aRf1Ivh3OKhkKdaSgZJtIlVEL-pSprmVQ7FQ&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lDENjqe4allaqoUejTI9BPkMXUYlFW0NKGtK2Xif1YPlYoRqO_CqkhbHA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAw7cKO9-_trB2y6X3bKV_dJgQtnRNWgZFwgqqbf9a3nb9Sn-NaGhfiDOVb6g&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kNitrhJMNz13Ag0Bxmh2iWNKIxg7H3ZrGLMjSyrLSySTLf3MVKkTK7hSG6Q&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcM0jEOgQXmHT1mHEa90jkvBNJUYfwN_L7QEt4giIHZFd7f8pRHnHjHvQzrU&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBGPFY8w-BZ3nrYxXSojVS0Fe3B5adLCvxR7juufUpkN-YU1OMbbuZ_oH3A&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm6DhfRqDKDN0dYO7dwAn-yR4ap0MdLtLGxPT_whc4xZFdrh2MQCk7Bt0kU&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW_NNsHIqtCuFWajimGOv6RJneGaRM2-8h3hgGvOd4Mmq5xsstGO4Lqu24yj4&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwqoGycNcwxiVqzz4T4_av7k2WFmHbOkyedY6yLeCQtRsjyRj9t5gC7xLK88&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvb4h38_iIFAzlpkLWTHAA5ia49XolyuLCTmbDsOaPk4WTVRdi2Xgi-Nphg&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg',
-            '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixPnAeQ3VIhM864e1BAACAMHqN5jR32E9GNFcsy7ETJwekOlLNn2wD1FlXA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfrFB9potztJVKd5yGviXZi7Wpf7lD1Ewz-dYqc_AVT_munTSrcwvCLgG6w&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlNOhyA5nOmDwAHzKwhz2UbI2OM44oftmlOVVgT7M7vQDQpF6E_I6Wf18-U0&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IOdCzecJhMT1sx0qzOn33cI61MSFarRwGbI15ab5D4Z_oD_U-YlCT8DV0RY&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHS6J5CfdonfZWDqi-2mO1axz_9wUrSeuf1UqYOVNFQGbj7JEEN7HyAsC0GQ&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD510ur7mPl_E4UlKVB8ZNbXRaKO2uRoN5tQheuTNPtM9hqZdNyLuyB6-jlA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqLtcRI01HyBOV-8Qzi1Exa_bJ6nSJDd28-orJhFtjAy4De3KDyAKSKSgSMM&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62aujzJG_Zw3P4Q6M90Ys_rtti1xLlQgGDo3bBz1WZf8MTmHu1cuK2b6Z_w&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfXB7vLIQ9gb59kwzXsX7z3aRf1Ivh3OKhkKdaSgZJtIlVEL-pSprmVQ7FQ&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lDENjqe4allaqoUejTI9BPkMXUYlFW0NKGtK2Xif1YPlYoRqO_CqkhbHA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAw7cKO9-_trB2y6X3bKV_dJgQtnRNWgZFwgqqbf9a3nb9Sn-NaGhfiDOVb6g&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kNitrhJMNz13Ag0Bxmh2iWNKIxg7H3ZrGLMjSyrLSySTLf3MVKkTK7hSG6Q&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcM0jEOgQXmHT1mHEa90jkvBNJUYfwN_L7QEt4giIHZFd7f8pRHnHjHvQzrU&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBGPFY8w-BZ3nrYxXSojVS0Fe3B5adLCvxR7juufUpkN-YU1OMbbuZ_oH3A&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm6DhfRqDKDN0dYO7dwAn-yR4ap0MdLtLGxPT_whc4xZFdrh2MQCk7Bt0kU&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW_NNsHIqtCuFWajimGOv6RJneGaRM2-8h3hgGvOd4Mmq5xsstGO4Lqu24yj4&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwqoGycNcwxiVqzz4T4_av7k2WFmHbOkyedY6yLeCQtRsjyRj9t5gC7xLK88&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvb4h38_iIFAzlpkLWTHAA5ia49XolyuLCTmbDsOaPk4WTVRdi2Xgi-Nphg&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg',
-            '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixPnAeQ3VIhM864e1BAACAMHqN5jR32E9GNFcsy7ETJwekOlLNn2wD1FlXA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfrFB9potztJVKd5yGviXZi7Wpf7lD1Ewz-dYqc_AVT_munTSrcwvCLgG6w&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlNOhyA5nOmDwAHzKwhz2UbI2OM44oftmlOVVgT7M7vQDQpF6E_I6Wf18-U0&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IOdCzecJhMT1sx0qzOn33cI61MSFarRwGbI15ab5D4Z_oD_U-YlCT8DV0RY&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHS6J5CfdonfZWDqi-2mO1axz_9wUrSeuf1UqYOVNFQGbj7JEEN7HyAsC0GQ&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD510ur7mPl_E4UlKVB8ZNbXRaKO2uRoN5tQheuTNPtM9hqZdNyLuyB6-jlA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqLtcRI01HyBOV-8Qzi1Exa_bJ6nSJDd28-orJhFtjAy4De3KDyAKSKSgSMM&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62aujzJG_Zw3P4Q6M90Ys_rtti1xLlQgGDo3bBz1WZf8MTmHu1cuK2b6Z_w&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfXB7vLIQ9gb59kwzXsX7z3aRf1Ivh3OKhkKdaSgZJtIlVEL-pSprmVQ7FQ&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lDENjqe4allaqoUejTI9BPkMXUYlFW0NKGtK2Xif1YPlYoRqO_CqkhbHA&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAw7cKO9-_trB2y6X3bKV_dJgQtnRNWgZFwgqqbf9a3nb9Sn-NaGhfiDOVb6g&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kNitrhJMNz13Ag0Bxmh2iWNKIxg7H3ZrGLMjSyrLSySTLf3MVKkTK7hSG6Q&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcM0jEOgQXmHT1mHEa90jkvBNJUYfwN_L7QEt4giIHZFd7f8pRHnHjHvQzrU&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBGPFY8w-BZ3nrYxXSojVS0Fe3B5adLCvxR7juufUpkN-YU1OMbbuZ_oH3A&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm6DhfRqDKDN0dYO7dwAn-yR4ap0MdLtLGxPT_whc4xZFdrh2MQCk7Bt0kU&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW_NNsHIqtCuFWajimGOv6RJneGaRM2-8h3hgGvOd4Mmq5xsstGO4Lqu24yj4&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwqoGycNcwxiVqzz4T4_av7k2WFmHbOkyedY6yLeCQtRsjyRj9t5gC7xLK88&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvb4h38_iIFAzlpkLWTHAA5ia49XolyuLCTmbDsOaPk4WTVRdi2Xgi-Nphg&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg']
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixPnAeQ3VIhM864e1BAACAMHqN5jR32E9GNFcsy7ETJwekOlLNn2wD1FlXA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfrFB9potztJVKd5yGviXZi7Wpf7lD1Ewz-dYqc_AVT_munTSrcwvCLgG6w&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlNOhyA5nOmDwAHzKwhz2UbI2OM44oftmlOVVgT7M7vQDQpF6E_I6Wf18-U0&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IOdCzecJhMT1sx0qzOn33cI61MSFarRwGbI15ab5D4Z_oD_U-YlCT8DV0RY&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHS6J5CfdonfZWDqi-2mO1axz_9wUrSeuf1UqYOVNFQGbj7JEEN7HyAsC0GQ&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD510ur7mPl_E4UlKVB8ZNbXRaKO2uRoN5tQheuTNPtM9hqZdNyLuyB6-jlA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqLtcRI01HyBOV-8Qzi1Exa_bJ6nSJDd28-orJhFtjAy4De3KDyAKSKSgSMM&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62aujzJG_Zw3P4Q6M90Ys_rtti1xLlQgGDo3bBz1WZf8MTmHu1cuK2b6Z_w&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfXB7vLIQ9gb59kwzXsX7z3aRf1Ivh3OKhkKdaSgZJtIlVEL-pSprmVQ7FQ&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lDENjqe4allaqoUejTI9BPkMXUYlFW0NKGtK2Xif1YPlYoRqO_CqkhbHA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAw7cKO9-_trB2y6X3bKV_dJgQtnRNWgZFwgqqbf9a3nb9Sn-NaGhfiDOVb6g&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kNitrhJMNz13Ag0Bxmh2iWNKIxg7H3ZrGLMjSyrLSySTLf3MVKkTK7hSG6Q&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcM0jEOgQXmHT1mHEa90jkvBNJUYfwN_L7QEt4giIHZFd7f8pRHnHjHvQzrU&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBGPFY8w-BZ3nrYxXSojVS0Fe3B5adLCvxR7juufUpkN-YU1OMbbuZ_oH3A&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm6DhfRqDKDN0dYO7dwAn-yR4ap0MdLtLGxPT_whc4xZFdrh2MQCk7Bt0kU&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW_NNsHIqtCuFWajimGOv6RJneGaRM2-8h3hgGvOd4Mmq5xsstGO4Lqu24yj4&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwqoGycNcwxiVqzz4T4_av7k2WFmHbOkyedY6yLeCQtRsjyRj9t5gC7xLK88&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvb4h38_iIFAzlpkLWTHAA5ia49XolyuLCTmbDsOaPk4WTVRdi2Xgi-Nphg&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg',
+              '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixPnAeQ3VIhM864e1BAACAMHqN5jR32E9GNFcsy7ETJwekOlLNn2wD1FlXA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfrFB9potztJVKd5yGviXZi7Wpf7lD1Ewz-dYqc_AVT_munTSrcwvCLgG6w&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlNOhyA5nOmDwAHzKwhz2UbI2OM44oftmlOVVgT7M7vQDQpF6E_I6Wf18-U0&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IOdCzecJhMT1sx0qzOn33cI61MSFarRwGbI15ab5D4Z_oD_U-YlCT8DV0RY&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHS6J5CfdonfZWDqi-2mO1axz_9wUrSeuf1UqYOVNFQGbj7JEEN7HyAsC0GQ&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD510ur7mPl_E4UlKVB8ZNbXRaKO2uRoN5tQheuTNPtM9hqZdNyLuyB6-jlA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqLtcRI01HyBOV-8Qzi1Exa_bJ6nSJDd28-orJhFtjAy4De3KDyAKSKSgSMM&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62aujzJG_Zw3P4Q6M90Ys_rtti1xLlQgGDo3bBz1WZf8MTmHu1cuK2b6Z_w&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfXB7vLIQ9gb59kwzXsX7z3aRf1Ivh3OKhkKdaSgZJtIlVEL-pSprmVQ7FQ&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lDENjqe4allaqoUejTI9BPkMXUYlFW0NKGtK2Xif1YPlYoRqO_CqkhbHA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAw7cKO9-_trB2y6X3bKV_dJgQtnRNWgZFwgqqbf9a3nb9Sn-NaGhfiDOVb6g&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kNitrhJMNz13Ag0Bxmh2iWNKIxg7H3ZrGLMjSyrLSySTLf3MVKkTK7hSG6Q&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcM0jEOgQXmHT1mHEa90jkvBNJUYfwN_L7QEt4giIHZFd7f8pRHnHjHvQzrU&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBGPFY8w-BZ3nrYxXSojVS0Fe3B5adLCvxR7juufUpkN-YU1OMbbuZ_oH3A&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm6DhfRqDKDN0dYO7dwAn-yR4ap0MdLtLGxPT_whc4xZFdrh2MQCk7Bt0kU&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW_NNsHIqtCuFWajimGOv6RJneGaRM2-8h3hgGvOd4Mmq5xsstGO4Lqu24yj4&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwqoGycNcwxiVqzz4T4_av7k2WFmHbOkyedY6yLeCQtRsjyRj9t5gC7xLK88&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvb4h38_iIFAzlpkLWTHAA5ia49XolyuLCTmbDsOaPk4WTVRdi2Xgi-Nphg&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg',
+              '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixPnAeQ3VIhM864e1BAACAMHqN5jR32E9GNFcsy7ETJwekOlLNn2wD1FlXA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfrFB9potztJVKd5yGviXZi7Wpf7lD1Ewz-dYqc_AVT_munTSrcwvCLgG6w&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlNOhyA5nOmDwAHzKwhz2UbI2OM44oftmlOVVgT7M7vQDQpF6E_I6Wf18-U0&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IOdCzecJhMT1sx0qzOn33cI61MSFarRwGbI15ab5D4Z_oD_U-YlCT8DV0RY&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHS6J5CfdonfZWDqi-2mO1axz_9wUrSeuf1UqYOVNFQGbj7JEEN7HyAsC0GQ&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD510ur7mPl_E4UlKVB8ZNbXRaKO2uRoN5tQheuTNPtM9hqZdNyLuyB6-jlA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqLtcRI01HyBOV-8Qzi1Exa_bJ6nSJDd28-orJhFtjAy4De3KDyAKSKSgSMM&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62aujzJG_Zw3P4Q6M90Ys_rtti1xLlQgGDo3bBz1WZf8MTmHu1cuK2b6Z_w&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfXB7vLIQ9gb59kwzXsX7z3aRf1Ivh3OKhkKdaSgZJtIlVEL-pSprmVQ7FQ&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lDENjqe4allaqoUejTI9BPkMXUYlFW0NKGtK2Xif1YPlYoRqO_CqkhbHA&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAw7cKO9-_trB2y6X3bKV_dJgQtnRNWgZFwgqqbf9a3nb9Sn-NaGhfiDOVb6g&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kNitrhJMNz13Ag0Bxmh2iWNKIxg7H3ZrGLMjSyrLSySTLf3MVKkTK7hSG6Q&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcM0jEOgQXmHT1mHEa90jkvBNJUYfwN_L7QEt4giIHZFd7f8pRHnHjHvQzrU&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBGPFY8w-BZ3nrYxXSojVS0Fe3B5adLCvxR7juufUpkN-YU1OMbbuZ_oH3A&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm6DhfRqDKDN0dYO7dwAn-yR4ap0MdLtLGxPT_whc4xZFdrh2MQCk7Bt0kU&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW_NNsHIqtCuFWajimGOv6RJneGaRM2-8h3hgGvOd4Mmq5xsstGO4Lqu24yj4&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwqoGycNcwxiVqzz4T4_av7k2WFmHbOkyedY6yLeCQtRsjyRj9t5gC7xLK88&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvb4h38_iIFAzlpkLWTHAA5ia49XolyuLCTmbDsOaPk4WTVRdi2Xgi-Nphg&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg']
 # Channel Access Token
 app = Flask(__name__)
 line_bot_api = LineBotApi(
@@ -179,188 +179,189 @@ def watch_the_stars(event):
     get = event.message.text
     if('觀星' in get):
         message = TextSendMessage(
-        text="全台觀星景點｜北部\n★陽明山：擎天崗\n★基隆：大武崙砲台\n★桃園：拉拉山\n★雪霸國家公園\n合歡山暗空公園\n★宜蘭：太平山\n全台觀星景點｜中部\n★玉山國家公園\n★南投：清境\n★阿里山\n★恆春：貓鼻頭\n全台觀星景點｜東部\n★花蓮：大農大富森林\n★台東:嘉明湖\n★您可以查詢以上地點會有相關路線以及其介紹★"
+            text="全台觀星景點｜北部\n★陽明山：擎天崗\n★基隆：大武崙砲台\n★桃園：拉拉山\n★雪霸國家公園\n合歡山暗空公園\n★宜蘭：太平山\n全台觀星景點｜中部\n★玉山國家公園\n★南投：清境\n★阿里山\n★恆春：貓鼻頭\n全台觀星景點｜東部\n★花蓮：大農大富森林\n★台東:嘉明湖\n★您可以查詢以上地點會有相關路線以及其介紹★")
     line_bot_api.reply_message(event.reply_token, message)
 
 
 def map(event):
-    get=event.message.text
-    get1=event.message.text
-    get2=event.message.text
+    get3 = event.message.text
+    get1 = event.message.text
+    get2 = event.message.text
     if('陽明山' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://www.travel.taipei/content/images/attractions/65473/1024x768_attractions-image-cxh_ib5zs0wq1c0iv6cooq.jpg',
             preview_image_url='https://www.travel.taipei/content/images/attractions/65473/1024x768_attractions-image-cxh_ib5zs0wq1c0iv6cooq.jpg'
         )
     if('陽明山' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n陽明山的夜景在臺北市頗負盛名，隨著仰德大道直上，沿路都可欣賞到臺北市夜晚燦爛星空與閃爍燈海相映的景象，觀賞夜景的好地方還包括白雲山莊、竹子湖觀景台、永公路前、林語堂故居，及繞過陽明山公園往頂湖或北投地區之處。另外，二子坪遊憩區、擎天崗由於視野遼闊，一望無際，也十分適合觀星賞月。極具代表性的則是文化大學後山，因為離臺北盆地近，加上角度夠陡，如同俯身看夜景般，有種讓人瞬間就墜入萬家燈火夢境裡的感覺。"
-           )
+        )
     if('陽明山' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='陽明山',
             latitude=25.194876190356684,
             longitude=121.56119365161739)
     if('大武崙砲台' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://mapio.net/images-p/21705320.jpg',
             preview_image_url='https://mapio.net/images-p/21705320.jpg'
         )
     if('大武崙砲台' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n北海岸的大武崙砲台，距離基隆市區不遠，也是北台灣十分著名的觀星景點。大武崙砲台的地理位置處於高處，非常適合觀星，因此北海岸及觀音山國家風景區管理處近年也開始舉辦觀星活動，帶領大眾體驗觀星的樂趣。"
-           )
+        )
     if('大武崙砲台' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='大武崙砲台',
-            latitude=(25.15883956907141,
+            latitude=25.15883956907141,
             longitude=121.7084027926998)
     if('拉拉山' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://pic.pimg.tw/mttt543/1469122650-382915528_wn.jpg',
             preview_image_url='https://pic.pimg.tw/mttt543/1469122650-382915528_wn.jpg'
         )
     if('拉拉山' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n拉拉山上不僅蔭地是秋、日照成夏，入了夜還有像被打翻整個夜空的星子，山上視野遼闊，光害少，是觀星的好去處，但偶爾雲霧繚繞山頭，遮擋了一些視線，約略要等到快晚上十一點天才會開，那速度快的像是扯掉一塊黑布，光度不等的的羅列星棋已就定位，再來就是接受人們的仰望與讚嘆。")
     if('拉拉山' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='桃園拉拉山',
-            latitude=(24.730588931200863,
+            latitude=24.730588931200863,
             longitude=121.43416666464796)
     if('雪霸國家公園' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://assetsv4.tripmoment.com/system/redactor_assets/pictures/22300/content_330bcdcf-530a-4269-acaf-95e14f8d0c2e.jpg',
             preview_image_url='https://assetsv4.tripmoment.com/system/redactor_assets/pictures/22300/content_330bcdcf-530a-4269-acaf-95e14f8d0c2e.jpg'
         )
     if('雪霸國家公園' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n高海拔的雪霸國家公園，不只擁有豐富的生態環境，也是非常適合觀星的地點，其中，以武陵農場、觀霧遊憩區及合歡山等都是極佳的觀星場所。一日遊的話以「武嶺停車場」（看地圖）和「合歡主峰第一觀景台」為兩大最受觀星愛好者歡迎。前者雖然常有車燈燈害的干擾，但仰望還是可以看得到滿天星。而後者則是主峰最受歡迎的觀星攝影地點，由於觀景台造型的特殊性，這邊非常適合做取景或是拍星軌。")
     if('雪霸國家公園' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='雪霸國家公園',
-            latitude=(24.41025288704792,
+            latitude=24.41025288704792,
             longitude=121.232322528505)
     if('合歡山暗空公園' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202009/5F6786C1466181600620225.jpeg',
             preview_image_url='https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202009/5F6786C1466181600620225.jpeg'
         )
     if('合歡山暗空公園' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n合歡山國際暗空公園 （Hehuan Mountain Dark Sky Park ，HMDSP），在台 14 甲線 22.1 公里處開始，至 37.1 公里處止。依道路沿線，往左右各兩側約略 500 公尺的區域，包含昆陽、鳶峰、鳶峰天文教育館、武嶺、松、合歡山、松雪樓、滑雪山莊、太魯閣國家公園管理處合歡山管理站等觀星的地點。從 2018 年開始著手處理與申請，於  2019 年 12 月通過國際暗空協會 （IDA） 認證，成為亞洲第三座國際認證的國際暗空公園，僅次於韓國的英陽郡螢火蟲生態公園，晚上這裡的星星很多，適合大眾攜家帶眷來觀賞。")
     if('合歡山暗空公園' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='合歡山暗空公園',
-            latitude=(24.119619044460528,
+            latitude=24.119619044460528,
             longitude=121.23788298056792)
     if('太平山' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://wpimg.tedlin.tw/2017/10/TED_2387.jpg',
             preview_image_url='https://wpimg.tedlin.tw/2017/10/TED_2387.jpg'
         )
     if('太平山' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n若是想要有老師帶領、講解觀星課程，非常推薦到宜蘭太平山一遊。林務局羅東林區管理處針對住宿在太平山國家森林遊樂區的旅客，規劃了定期的觀星活動，由專業老師帶領室內課程與室外活動，十分適合全家大小一起參加。")
     if('太平山' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='太平山',
-            latitude=(24.498019857300292,
+            latitude=24.498019857300292,
             longitude=121.53519850951673)
-     if('玉山國家公園' in get1):
-        message1=ImageSendMessage(
+    if('玉山國家公園' in get1):
+        message1 = ImageSendMessage(
             original_content_url='https://img.ltn.com.tw/Upload/news/600/2019/04/24/2768745_3.jpg',
             preview_image_url='https://img.ltn.com.tw/Upload/news/600/2019/04/24/2768745_3.jpg'
         )
     if('玉山國家公園' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n非常受到天文迷歡迎的觀星地，位於玉山國家公園的塔塔加絕對榜上有名。每到夜晚，各個星座、星體都在塔塔加的天空出現，不只容易辨識，想要拍出超美的星空照也沒問題！像是夫妻樹、停車場、遊客中心都是十分受到歡迎的地點。")
     if('玉山國家公園' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='玉山國家公園',
-            latitude=(23.47007226805115,
+            latitude=23.47007226805115,
             longitude=120.95773699769175)
     if('清境' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://static.accupass.com/eventintro/2008020759261199236260.jpg',
             preview_image_url='https://static.accupass.com/eventintro/2008020759261199236260.jpg'
         )
     if('清境' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n高海拔的清境，擁有眾多歐風建築及大片草原，還有最接近天空的天空步道，白天散步在這裡感覺像漫步在天空中；晚上抬頭望著星空彷彿倘佯在宇宙中，與天空零距離的地方自然是觀星的首選。")
     if('清境' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='南投：清境',
-            latitude=(24.055406320121055,
+            latitude=24.055406320121055,
             longitude=121.16240492909596)
     if('阿里山' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://www.mook.com.tw/images/upload/article/18293/A18293_1530766231_2.jpg',
             preview_image_url='https://www.mook.com.tw/images/upload/article/18293/A18293_1530766231_2.jpg'
         )
     if('阿里山' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n阿里山不只能看日出，位於阿里山國家森林遊樂區的小笠原山觀景平台視野極佳，加上高海拔、少光害的特色，仰頭就能看到滿天星斗，若是搭配使用天文望遠鏡，則可看到更多行星，絕對是天文迷必去的口袋名單。")
     if('阿里山' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='嘉義：阿里山',
-            latitude=(23.509559804545784,
+            latitude=23.509559804545784,
             longitude=120.82286189830182)
     if('貓鼻頭' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='http://jdanews.com/blog/wp-content/uploads/2018/12/48395686_1325658220909387_6999618303777832960_n.jpg',
             preview_image_url='http://jdanews.com/blog/wp-content/uploads/2018/12/48395686_1325658220909387_6999618303777832960_n.jpg'
         )
     if('貓鼻頭' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n位於台灣最南端的恆春半島，一直以來都是十分受到歡迎的觀星地，而貓鼻頭觀景台的地理位置不只遠離光害，還能遠遠眺望許多恆春的知名景點，因此十分受到觀星族的喜愛。")
     if('貓鼻頭' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='恆春：貓鼻頭',
-            latitude=(21.92218492616225,
+            latitude=21.92218492616225,
             longitude=120.73794138722731)
     if('大農大富森林' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://www.welcometw.com/wp-content/uploads/2020/12/1-1-2-681x851.jpg',
             preview_image_url='https://www.welcometw.com/wp-content/uploads/2020/12/1-1-2-681x851.jpg'
         )
     if('大農大富森林' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n位於花蓮光復鄉的大農大富森林，不只有著廣闊的園區佔地，生態也保持得十分好，在這裡白天可以觀察各種生物、生態，夜晚就成為觀星的好去處。臺北市立天文科學教育館也在這裡舉辦天文營活動，帶領民眾了解天文知識。而另外在花蓮南邊富里鄉的六十石山也是花東縱谷另一個熱門的觀星景點之一。尤其在每年的八月九月六十石山金針花盛開時，超大面積金針花海搖曳，也由於此處地點空曠無光害也幾乎沒有居民，因此這邊晚上也是個絕佳的觀星點喔！")
     if('大農大富森林' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='花蓮：大農大富森林',
-            latitude=(23.614972749304535,
+            latitude=23.614972749304535,
             longitude=121.41769591118695)
     if('嘉明湖' in get1):
-        message1=ImageSendMessage(
+        message1 = ImageSendMessage(
             original_content_url='https://cdntwrunning.biji.co/800_e3551bad7f2ebc2dbd87290c15482e5d.jpg',
             preview_image_url='https://cdntwrunning.biji.co/800_e3551bad7f2ebc2dbd87290c15482e5d.jpg'
         )
     if('嘉明湖' in get2):
-        message2=TextSendMessage(
+        message2 = TextSendMessage(
             text="★景點介紹★\n假日無處去？何不跟上觀星潮流，到全台各地觀星、露營，享受親近大自然的樂趣！在滿天熠熠星辰底下，悠閒的享受靜謐時光，洗滌疲憊、好好充電，才能迎接工作上、生活中的每一個挑戰！風景如畫的嘉明湖是您的好選擇!")
     if('嘉明湖' in get3):
-        message3=LocationSendMessage(
+        message3 = LocationSendMessage(
             title='my location',
             address='台東：嘉明湖',
-            latitude=(23.29353208694757,
+            latitude=23.29353208694757,
             longitude=121.03399940933431)
 
     line_bot_api.reply_message(event.reply_token, message1)
     line_bot_api.reply_message(event.reply_token, message2)
     line_bot_api.reply_message(event.reply_token, message3)
+
 
 if __name__ == "__main__":
     app.run()
