@@ -10,19 +10,19 @@ from linebot.models import *
 
 import random
 import requests
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor
-res = requests.get('https://example.com', headers={
-        'User-Agent': 'Firefox browser\'s user-agent',
-})
-web = requests.get('https://www.google.com/search?q=%E6%AD%A3%E5%A6%B9&rlz=1C1VDKB_zh-TWTW968TW968&sxsrf=ALiCzsbpJ32YYwZzhP_-xhIp1A0rPCTIyg:1653983833798&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjXtYL3oYn4AhWXmFYBHRbOAJAQ_AUoAXoECAIQAw&biw=1500&bih=889&dpr=2.html', cookies={'over18':'1'})
-soup = BeautifulSoup(web.text, "html.parser")
-imgs = soup.find_all('img')
-name = 0
-img_urls = []                          # 根據爬取的資料，建立一個圖片名稱與網址的空串列
-for i in imgs:                         # 修改 for 迴圈內容
-    img_urls.append([i['src'], name])    # 將圖片網址與編號加入串列中
-    name = name + 1                      # 編號增加 1
+# from bs4 import BeautifulSoup
+# from concurrent.futures import ThreadPoolExecutor
+# res = requests.get('https://example.com', headers={
+#         'User-Agent': 'Firefox browser\'s user-agent',
+# })
+# web = requests.get('https://www.google.com/search?q=%E6%AD%A3%E5%A6%B9&rlz=1C1VDKB_zh-TWTW968TW968&sxsrf=ALiCzsbpJ32YYwZzhP_-xhIp1A0rPCTIyg:1653983833798&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjXtYL3oYn4AhWXmFYBHRbOAJAQ_AUoAXoECAIQAw&biw=1500&bih=889&dpr=2.html', cookies={'over18':'1'})
+# soup = BeautifulSoup(web.text, "html.parser")
+# imgs = soup.find_all('img')
+# name = 0
+# img_urls = []                          # 根據爬取的資料，建立一個圖片名稱與網址的空串列
+# for i in imgs:                         # 修改 for 迴圈內容
+#     img_urls.append([i['src'], name])    # 將圖片網址與編號加入串列中
+#     name = name + 1                      # 編號增加 1
 # Channel Access Token
 app = Flask(__name__)
 line_bot_api = LineBotApi(
@@ -111,9 +111,9 @@ def story(event):
             preview_image_url='https://i.imgur.com/zTOnfAi.jpg'
         )
     if('抽' in get):
-        ran_num = random.randint(1, 20)
-        result1 = img_urls[ran_num][0]
-        result2=result1+".jpg"
+#         ran_num = random.randint(1, 20)
+#         result1 = img_urls[ran_num][0]
+#         result2=result1+".jpg"
         message = ImageSendMessage(
             original_content_url='https://i.imgur.com/zTOnfAi.jpg',
             preview_image_url='https://i.imgur.com/zTOnfAi.jpg'
