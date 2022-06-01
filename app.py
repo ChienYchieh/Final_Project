@@ -151,6 +151,7 @@ def story(event):
         message = TextSendMessage(
             text="有一天海格拉斯和族人起衝突，被追殺的他就逃入肯農家中，憤怒的海格拉斯就瞄準半馬半人族頻頻放箭，卻不知老師肯農也混在其中，而射到他的腳。 因箭端沾了不死之身，所以無法從痛苦中解放。 巨人神普羅米修斯乃廢了其不死之身，讓他安詳而死，而成為天上的射手座。")
     line_bot_api.reply_message(event.reply_token, message)
+@handler.add(MessageEvent, message=TextMessage)
 def girl(event):
     get = event.message.text
     if('抽' in get):
@@ -161,6 +162,7 @@ def girl(event):
             preview_image_url=result1
         )
     line_bot_api.reply_message(event.reply_token, message)
+@handler.add(MessageEvent, message=TextMessage)
 def watch_star(event):
     get = event.message.text
     if('觀星' in get):
