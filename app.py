@@ -113,9 +113,10 @@ def story(event):
     if('抽' in get):
         ran_num = random.randint(1, 20)
         result1 = img_urls[ran_num][0]
+        result2=result1+".jpg"
         message = ImageSendMessage(
-            original_content_url='result1.jpg',
-            preview_image_url='result1.jpg'
+            original_content_url=result2,
+            preview_image_url=result2
         )
     line_bot_api.reply_message(event.reply_token, message)
 
