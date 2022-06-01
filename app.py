@@ -105,7 +105,8 @@ def callback():
 # 處理訊息
 
 
-@handler.add(MessageEvent, message=TextMessage,message1=TextMessage,message2=TextMessage,message3=TextMessage)
+@handler.add(MessageEvent, message=TextMessage)
+message=[message,message1,message2,message3]
 def story(event):
     get = event.message.text
 # event.gessage.text接收使用者文字訊息
@@ -339,7 +340,7 @@ def map(event):
             latitude=(23.29353208694757,
             longitude=121.03399940933431)
     
-    line_bot_api.reply_message(event.reply_token, message,message1,message2,message3)
+    line_bot_api.reply_message(event.reply_token, message)
     
 
 if __name__ == "__main__":
