@@ -9,7 +9,7 @@ from linebot.exceptions import (
 from linebot.models import *
 
 import random
-import The_girls_url.py 
+import The_girls_url 
 ran_num = random.randint(1, 62)
 result1 = Girl_Array[ran_num][0]
 result2=result1+".jpg"
