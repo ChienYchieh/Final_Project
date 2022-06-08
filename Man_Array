@@ -1,0 +1,47 @@
+# import random
+# import requests
+# from bs4 import BeautifulSoup
+# from concurrent.futures import ThreadPoolExecutor
+# web = requests.get('https://www.google.com/search?q=%E7%8C%9B%E7%94%B7&tbm=isch&ved=2ahUKEwjR9Ii-lZ34AhWnRvUHHWo6DpMQ2-cCegQIABAA&oq=%E7%8C%9B%E7%94%B7&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6CAgAEIAEELEDOgsIABCABBCxAxCDAToECAAQGFCKBVibDGCqDmgAcAB4AIABM4gBvwKSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=pzmgYpGFN6eN1e8P6vS4mAk&bih=889&biw=1500&rlz=1C1VDKB_zh-TWTW968TW968', cookies={'over18':'1'})
+# web2=requests.get('https://www.google.com/search?q=%E5%B8%A5%E5%93%A5&tbm=isch&ved=2ahUKEwjh57PBlZ34AhVJ-5QKHRwiABYQ2-cCegQIABAA&oq=%E5%B8%A5%E5%93%A5&gs_lcp=CgNpbWcQAzIECCMQJzIICAAQgAQQsQMyCwgAEIAEELEDEIMBMggIABCABBCxAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQ6gIQJzoECAAQGFDeBFilGWCBG2gBcAB4AIABiQGIAaQDkgEDNy4xmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=rjmgYuHYNsn20wScxICwAQ&bih=889&biw=1500&rlz=1C1VDKB_zh-TWTW968TW968', cookies={'over18':'1'})
+# web3=requests.get('https://www.google.com/search?q=%E5%9E%8B%E7%94%B7&tbm=isch&ved=2ahUKEwi-wpDSlZ34AhVfRvUHHZAGDI0Q2-cCegQIABAA&oq=%E5%9E%8B%E7%94%B7&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6CAgAEIAEELEDOgsIABCABBCxAxCDAToHCCMQ6gIQJ1C0CVikFGDQG2gBcAB4AIABSogBrQOSAQE5mAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=0TmgYv6VO9-M1e8PkI2w6Ag&bih=889&biw=1500&rlz=1C1VDKB_zh-TWTW968TW968',cookies={'over18':'1'})
+# soup = BeautifulSoup(web.text, "html.parser")
+# soup2= BeautifulSoup(web2.text, "html.parser")
+# soup3= BeautifulSoup(web3.text, "html.parser")
+# imgs = soup.find_all('img')
+# imgs2= soup2.find_all('img')
+# imgs3= soup3.find_all('img')
+# name = 0
+
+# img_urls = []# 根據爬取的資料，建立一個圖片名稱與網址的空串列
+# img_urls2 = []
+# img_urls3 = []
+# Man_Array=[]
+
+# for i in imgs:                         # 修改 for 迴圈內容
+#     img_urls.append([i['src'], name])    # 將圖片網址與編號加入串列中
+#     name = name + 1                      # 編號增加 1
+    
+# for i in imgs2:                         
+#     img_urls2.append([i['src'], name])   
+#     name = name + 1 
+
+# for i in imgs3:                         
+#     img_urls3.append([i['src'], name])   
+#     name = name + 1
+# # ran_num = random.randint(1, 20)
+# # result1 = img_urls[ran_num][0]
+# # result2=result1+".jpg"
+# for i in range(len(img_urls)):
+#     result1 = img_urls[int(i)][0]
+#     result2=result1+".jpg"
+#     Man_Array.append(result2)
+# for i in range(len(img_urls2)):
+#     result1 = img_urls[int(i)][0]
+#     result2=result1+".jpg"
+#     Man_Array.append(result2)
+# for i in range(len(img_urls3)):
+#     result1 = img_urls[int(i)][0]
+#     result2=result1+".jpg"
+#     Man_Array.append(result2)
+# print(Man_Array)
