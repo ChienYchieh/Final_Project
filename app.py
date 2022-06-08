@@ -72,6 +72,69 @@ Girl_Array = ['/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvb4h38_ielifAzlpkLWTHAA5ia49XolyuLCTmbDsOaPk4WTVRdi2Xgi-Nphg&s.jpg',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs6U8hv6X5juBN1M_SPQUXFvjlKlenI0uPJVTIQmlYH2WHD2UnqPHXeCi8-8&s.jpg',
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwVlPmYgDMw7t8vwf1By8MxdSHii1-UlYR3NQSWBxQL01VC2IH4wpg683TQ&s.jpg']
+Man_Array=['/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19swjPSTdYwzuwxNQGu7nLdemi9lXGSAtrhIK-VAp34B6uP_wSiGx2y66aQ&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjR-UCD6FWJYFyq1JPmuu80BPhS4Ju-2jflbSdUmfrr8ydsPScpthOqpDnEk&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvlN0Ze5GmLQuXupH_3d3bP6bxB8VNkiakQL5i9Jko4LbqSySeDhIOgvDkvI&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_qN4UT6Si80AB1nM-ZRnW9B_UXX3ly4wYBcDxm8xhOvSO9YJ0TN-Hccg-A&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBIeUX3jHa7C0PINDlj-919_kdWcR7yUM3UIu8io7V6waoLLC3dQv_oBaFw&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShQBjUgR1_SDEgEtZMKSTHcIetsr287U_4l8Lmh_rgBz29QnHIQEbhA3riA&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd2BCjc0wtGyhTNkVsPpjrC5dAxpnvAAhWLcd_Bcey5d2SqZIbwpL2dmqwqio&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQp6ELGZoT2RIeL6iXJS_vwo_R1wFDcd8FhcOLz7DUxgGRLXRa6hqshIEfA&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxTbzZ1Z1yRqbHmrvcavAPz6kb1aowSfXWCjVSPtos495TbK5Wdcq7XNkm8I&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_0pwqSOFF3a5CDfz_UamXgwhZLxy7FRSisfTajHJxe7BCSOrpxLh5N4Kk_g&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7oNOCv4cEAOMPNmLXo5G27dV6RCvw7ju-HgGj1efYF9HfoDgznHI5_GT1w&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4niO1aVPvbf9nd2d76C8HrMhTBizcZdrT7rjfZZuiyAsYyuUJspVpkXRcag&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1eTA6ouZXcmKbnWxoAAziojESc9A5JthwBBVO_2L-05t9MnVnOTp9-CPlWg&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbq9RElbJurGDWDile2frA0sF9oX3MCnx7v2KylqlmvSJYSRfHiR9Y8ZQ6g&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfyQi1z7Vxig-mbXFkdJFjBf7wPh669jU6Sa2ybuMyc3_kgJJMuVbG8qPYA&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuh1-Qyb5b82YHn7taK01MTGUzUFKEwhBFMk_lESucVDmeAofLvQCOFdMUUcA&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJAIQ0ZuNmjz_ttdNBl0v_23U82isvPrGHJ0-mfAiT1LImUAaFqsScpJ-9BZg&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5s9QQmXMvT-_UJeTXUvTwM7B-_40HEFOi90Z3qPr_pOQSXk2OxwTZf5RPQg&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGwCNyJp2dnRmqmDcFMEb91rQcX9tKmtpJCGEVzSt0v9AMojJwMPJb2QPNYt8&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkOSXHeULdlmDrGexZqzKxqKmpOVJFUMlot6JeBRSAFjpsBJKfq616IVfEAc&s.jpg',
+           '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19swjPSTdYwzuwxNQGu7nLdemi9lXGSAtrhIK-VAp34B6uP_wSiGx2y66aQ&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjR-UCD6FWJYFyq1JPmuu80BPhS4Ju-2jflbSdUmfrr8ydsPScpthOqpDnEk&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvlN0Ze5GmLQuXupH_3d3bP6bxB8VNkiakQL5i9Jko4LbqSySeDhIOgvDkvI&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_qN4UT6Si80AB1nM-ZRnW9B_UXX3ly4wYBcDxm8xhOvSO9YJ0TN-Hccg-A&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBIeUX3jHa7C0PINDlj-919_kdWcR7yUM3UIu8io7V6waoLLC3dQv_oBaFw&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShQBjUgR1_SDEgEtZMKSTHcIetsr287U_4l8Lmh_rgBz29QnHIQEbhA3riA&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd2BCjc0wtGyhTNkVsPpjrC5dAxpnvAAhWLcd_Bcey5d2SqZIbwpL2dmqwqio&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQp6ELGZoT2RIeL6iXJS_vwo_R1wFDcd8FhcOLz7DUxgGRLXRa6hqshIEfA&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxTbzZ1Z1yRqbHmrvcavAPz6kb1aowSfXWCjVSPtos495TbK5Wdcq7XNkm8I&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_0pwqSOFF3a5CDfz_UamXgwhZLxy7FRSisfTajHJxe7BCSOrpxLh5N4Kk_g&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7oNOCv4cEAOMPNmLXo5G27dV6RCvw7ju-HgGj1efYF9HfoDgznHI5_GT1w&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4niO1aVPvbf9nd2d76C8HrMhTBizcZdrT7rjfZZuiyAsYyuUJspVpkXRcag&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1eTA6ouZXcmKbnWxoAAziojESc9A5JthwBBVO_2L-05t9MnVnOTp9-CPlWg&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbq9RElbJurGDWDile2frA0sF9oX3MCnx7v2KylqlmvSJYSRfHiR9Y8ZQ6g&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfyQi1z7Vxig-mbXFkdJFjBf7wPh669jU6Sa2ybuMyc3_kgJJMuVbG8qPYA&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuh1-Qyb5b82YHn7taK01MTGUzUFKEwhBFMk_lESucVDmeAofLvQCOFdMUUcA&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJAIQ0ZuNmjz_ttdNBl0v_23U82isvPrGHJ0-mfAiT1LImUAaFqsScpJ-9BZg&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5s9QQmXMvT-_UJeTXUvTwM7B-_40HEFOi90Z3qPr_pOQSXk2OxwTZf5RPQg&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGwCNyJp2dnRmqmDcFMEb91rQcX9tKmtpJCGEVzSt0v9AMojJwMPJb2QPNYt8&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkOSXHeULdlmDrGexZqzKxqKmpOVJFUMlot6JeBRSAFjpsBJKfq616IVfEAc&s.jpg',
+           '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19swjPSTdYwzuwxNQGu7nLdemi9lXGSAtrhIK-VAp34B6uP_wSiGx2y66aQ&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjR-UCD6FWJYFyq1JPmuu80BPhS4Ju-2jflbSdUmfrr8ydsPScpthOqpDnEk&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvlN0Ze5GmLQuXupH_3d3bP6bxB8VNkiakQL5i9Jko4LbqSySeDhIOgvDkvI&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_qN4UT6Si80AB1nM-ZRnW9B_UXX3ly4wYBcDxm8xhOvSO9YJ0TN-Hccg-A&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBIeUX3jHa7C0PINDlj-919_kdWcR7yUM3UIu8io7V6waoLLC3dQv_oBaFw&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShQBjUgR1_SDEgEtZMKSTHcIetsr287U_4l8Lmh_rgBz29QnHIQEbhA3riA&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd2BCjc0wtGyhTNkVsPpjrC5dAxpnvAAhWLcd_Bcey5d2SqZIbwpL2dmqwqio&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQp6ELGZoT2RIeL6iXJS_vwo_R1wFDcd8FhcOLz7DUxgGRLXRa6hqshIEfA&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxTbzZ1Z1yRqbHmrvcavAPz6kb1aowSfXWCjVSPtos495TbK5Wdcq7XNkm8I&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_0pwqSOFF3a5CDfz_UamXgwhZLxy7FRSisfTajHJxe7BCSOrpxLh5N4Kk_g&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7oNOCv4cEAOMPNmLXo5G27dV6RCvw7ju-HgGj1efYF9HfoDgznHI5_GT1w&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4niO1aVPvbf9nd2d76C8HrMhTBizcZdrT7rjfZZuiyAsYyuUJspVpkXRcag&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1eTA6ouZXcmKbnWxoAAziojESc9A5JthwBBVO_2L-05t9MnVnOTp9-CPlWg&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbq9RElbJurGDWDile2frA0sF9oX3MCnx7v2KylqlmvSJYSRfHiR9Y8ZQ6g&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfyQi1z7Vxig-mbXFkdJFjBf7wPh669jU6Sa2ybuMyc3_kgJJMuVbG8qPYA&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuh1-Qyb5b82YHn7taK01MTGUzUFKEwhBFMk_lESucVDmeAofLvQCOFdMUUcA&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJAIQ0ZuNmjz_ttdNBl0v_23U82isvPrGHJ0-mfAiT1LImUAaFqsScpJ-9BZg&s.jpg', 
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5s9QQmXMvT-_UJeTXUvTwM7B-_40HEFOi90Z3qPr_pOQSXk2OxwTZf5RPQg&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGwCNyJp2dnRmqmDcFMEb91rQcX9tKmtpJCGEVzSt0v9AMojJwMPJb2QPNYt8&s.jpg',
+           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkOSXHeULdlmDrGexZqzKxqKmpOVJFUMlot6JeBRSAFjpsBJKfq616IVfEAc&s.jpg']
 # Channel Access Token
 app = Flask(__name__)
 line_bot_api = LineBotApi(
@@ -178,6 +241,15 @@ def story(event):
             preview_image_url=result1
         )
         reply_arr.append(message)
+####抽男生#######
+    elif('出來' == get):
+        ran_num = random.randint(1, 60)
+        result1 = Man_Array[ran_num]
+        message = ImageSendMessage(
+            original_content_url=result1,
+            preview_image_url=result1
+        )
+        reply_arr.append(message) 
  ####全台景點介紹####
     elif('觀星' in get):
         message = TextSendMessage(
